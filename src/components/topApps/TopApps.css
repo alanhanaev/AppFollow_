@@ -1,0 +1,91 @@
+.top-paid-apps {
+    color: #666666;
+}
+
+.top-paid-apps__title {
+    white-space: pre-line;
+    font-weight: bold;
+    font-size:13px;
+    text-transform: uppercase;
+}
+
+.top-free-apps {
+    color: #666666;
+}
+
+.top-free-apps__title {
+    white-space: pre-line;
+    font-weight: bold;
+    font-size:13px;
+    text-transform: uppercase;
+}
+
+.top-paid-apps__items {
+    padding: 0; /* Убираем поля */
+    margin-left: 15px; /* Отступ слева */
+  
+}
+
+.top-paid-apps__items__item {
+    margin-bottom: 10px;
+}
+
+.top-paid-apps__items__item__name {
+    white-space: pre-line;
+    font-weight: bold;
+    font-size:13px;
+}
+
+.top-paid-apps__items__item__category {
+    font-size:11px;
+}
+
+.top-paid-apps__items__item_image {
+   width: 50px;
+}
+
+.top-paid-apps__items__item_image > image {
+    width: 100%;
+ }
+
+
+
+ .top-paid-apps__items__item-image {
+    margin-bottom: 10px;
+    padding-left:10px;
+}
+
+.top-paid-apps__items__item-image__name {
+    white-space: pre-line;
+    font-weight: bold;
+    font-size:13px;
+    width: calc( 100% - 51px );
+    display: inline-block;
+}
+
+.top-paid-apps__items__item-image__category {
+    font-size:11px;
+    width: calc( 100% - 51px );
+    display: inline-block;
+}
+
+ .top-paid-apps__items__item-image__wrap__image {
+    width: 50px;
+    float: left;
+ }
+
+ .top-paid-apps__items__item-image__wrap__image > img {
+    width: 100%;
+    border-radius: 19%;
+ }
+
+ .top-paid-apps__items__item-image__wrap__description {
+width: calc( 100% - 60px );
+float: left;
+padding-left:15px;
+ }
+
+
+ .padding-left-10 {
+     padding-left: 10px;
+ }

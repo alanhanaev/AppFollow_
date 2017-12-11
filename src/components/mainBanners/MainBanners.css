@@ -1,0 +1,69 @@
+/* .collection-banners {
+    padding-top:20px;
+    padding-bottom: 20px;
+    }
+    
+    .collection-banners-header {
+        display: block;
+        padding-right: 10px; 
+        padding-left: 10px; 
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        color: #666666;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        
+        .collection-banners-header__title {
+            font-weight: bold;
+            font-size:16px;
+            display: inline-block;
+        }
+        
+        .collection-banners-items {
+                display: block;
+                width: 100%; 
+                height: 270px;
+                overflow:hidden;
+                white-space: nowrap; 
+                color: #666666;
+                overflow-y: hidden;
+                overflow-x: scroll;
+                margin-left: 10px;
+                margin-right: 10px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+        }
+    
+        .collection-banners-items__banner {
+         padding:10px;
+         display: inline-block;
+         width: 225px;
+        }
+        .collection-banners-items__banner > img {
+           width: 100%; 
+           border-radius: 8px;
+        } */
+
+
+.main-banners-items {
+    display: block;
+    height: 300px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-banners-items__banner {
+height: 100%;
+padding-right: 5px;
+}
+
+.main-banners-items__banner > img {
+    height: 100%;
+}
