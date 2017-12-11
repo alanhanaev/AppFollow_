@@ -118,10 +118,11 @@ class Collections extends Component {
                                                 </div>
                                                 <div className='collection-items__app__inbuilt-purchases'>
                                                     {
-                                                        item.inbuiltPurchases
+                                                           item.inbuiltPurchases==='true'
                                                             ?
                                                             'Встроенные покупки'
-                                                            : ''
+                                                            : 
+                                                            ''
                                                     }
                                                 </div>
                                             </div>
